@@ -28,7 +28,7 @@ public class City {
         /* convert alpha field to uppercase */
         alpha2 = alpha2.toUpperCase();
 
-        /* validate alpha field in the specified format */
+        /* validate field in the specified format */
         if (!alpha2.matches("[A-Z]{2}")) {
             throw new IllegalArgumentException("Alfa2 inválido");
         }

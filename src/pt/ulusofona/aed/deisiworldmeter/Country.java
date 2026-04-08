@@ -31,7 +31,7 @@ public class Country {
         alpha2 = alpha2.toUpperCase();
         alpha3 = alpha3.toUpperCase();
 
-        /* validate alpha fields in the specified format */
+        /* validate fields in the specified format */
         if (!alpha2.matches("[A-Z]{2}")) {
             throw new IllegalArgumentException("Alfa2 inválido");
         }
